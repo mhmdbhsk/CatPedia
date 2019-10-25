@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/abyssinian"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/img_item_photo"
+        android:layout_marginLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/cat_name"
+        android:textColor="#000"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_item_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_name"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/cat_detail"
+        android:textSize="14sp" />
+
+</RelativeLayout>

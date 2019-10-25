@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CatPedia</string>
+    <string name="cat_name">Cat Name</string>
+    <string name="cat_detail">Cat Detail</string>
+    <string name="card_view">Card View</string>
+    <string name="list_view">List</string>
+    <string name="grid_view">Grid</string>
+    <string name="about_me">About</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="me">Azra Muhammad Bhaskarogra</string>
+    <string name="email">muhammadbhaska0@gmail.com</string>
+</resources>
